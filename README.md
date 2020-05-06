@@ -1,6 +1,6 @@
-#CMPS 3350 - Software Engineering
-#Spring 2020
-#Project - Galaxy Invaders
+# CMPS 3350 - Software Engineering 
+# Spring 2020
+# Project - Galaxy Invaders
 
 ## SkyBox:
 Our skybox is based on ARM software OpenGL ES SDK for android. It is a "collection of resources to help you build OpenGL ES applications for a platform with a Mali GPU and an ARM processor. You can use it for creating new applications, training, and exploration of implementation possibilities." This SDK has many samples, tutorials, that one can use for their own projects, including a skybox sample. 
