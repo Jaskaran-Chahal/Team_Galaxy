@@ -65,16 +65,29 @@
         android:layout_toEndOf="@+id/rightBtn" />
 
     <TextView
+        android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/score"
-        android:id="@+id/score"
         android:layout_alignBottom="@+id/upBtn"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="@color/red"
-        android:paddingLeft="40dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="40dp"
+        android:text="@string/score"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/red" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/score"
+        android:id="@+id/pause"
+        android:onClick="pausePushed"
+        android:layout_marginBottom="-49dp"
+        android:text="Pause" />
 
 
 </RelativeLayout>
