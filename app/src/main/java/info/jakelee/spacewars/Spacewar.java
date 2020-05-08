@@ -21,6 +21,11 @@ public class Spacewar extends AppCompatActivity implements View.OnTouchListener 
     MediaPlayer boomPlayer;
     int oldScore = 0;
     int btn = 0;
+    //Button
+    private Button pause;
+    //Status Check
+    private boolean pause_flg = false;
+
 
 
     @Override
@@ -41,6 +46,8 @@ public class Spacewar extends AppCompatActivity implements View.OnTouchListener 
         //Start the threads
         t.start();
         drawIt.start();
+
+        pause = (Button)findViewById(R.id.pause);
     }
 
 
@@ -209,6 +216,31 @@ public class Spacewar extends AppCompatActivity implements View.OnTouchListener 
         Spaceship.boomPlay = false;
     }
 
+    public void pausePushed(View view) {
+        if (pause_flg == false) {
+
+            pause_flg=true;
+            //Stop the drawIt
+            super.onPause();
+            if (misPlaying){mServ.pauseMusic(); misPlaying=false;}
+            //Change button text
+            pause.setText("START");
+
+        } else {
+            pause_flg = false;
+
+            //Change button text
+            pause.setText("PAUSE");
+
+            //Create drawIt
+            super.onResume();
+            Intent music = new Intent();
+            music.setClass(this,MusicService.class);
+            startService(music);
+            if (!misPlaying){mServ.resumeMusic(); misPlaying=true;}
+
+        }
+    }
 }
 
 
