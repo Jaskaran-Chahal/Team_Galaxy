@@ -1,2 +1,5 @@
-include ':app'
-rootProject.name='space invaders 3D'
+
+include ':samples:advanced_samples:common_java'
+
+include ':samples:advanced_samples:Skybox'
+

@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">space invaders 3D</string>
-
-    <string name="dummy_button">Dummy Button That Could Launch Game</string>
-    <string name="dummy_content">THIS WILL BE OUR\nMENU</string>
-</resources>
