@@ -5,6 +5,15 @@
 ## Galaxy Invader Game:
 The Galaxy Raider is a 2D space shooter based game, like Galaxy Glory and Galaga Chronicles. Inside which, the player needs to protect the raider (spaceship) and the galaxy from invaders. The Invaders will move across the screen swaying their arms and shooting bullets. If they hit a player he loses a life if they hit a shelter it will disintegrate until eventually the player has nowhere to hide. When the invaders reach the side of the screen they will drop down and scroll back the other way; a little bit faster. Eventually they will be moving so fast the player is doomed. The space invaders must be taken out quickly in order to protect their galaxy.
 
+## Instructions for running application:
+1. Download Android Studio
+2. Download zip file or clone the project.
+3. Open the Android Studio, Click on File >> Open >> Project >> Team_Galaxy
+4. Now, download the Pixel 2 with API 29 device from emulator in case you don't have an android phone. 
+5. If you already have an android phone, plug it directly into computer using USB cable, wait for android studio to detect your device.
+6. Build the project
+7. After successfully Building the project, Run it and Play !!
+
 ## Disecting the game:
 ### Jaskaran Chahal:
 Progamming done with Java inside Android Studio, starting with one touch listener for adding all buttons. Further, a thread "drawIt()" updates the canvas, score and plays the explosion sound. Another, thread checks for velocity and coordinates for checking direction of spaceship which updates every 30 milliseconds. Moving along with array lists for missile and spacejunk objects which gets deleted and decayed after player shoots missiles. The incorporation of flags for checking the player has hit or miss the spacejunk and missile gets deleted if nothing is hit. The fireInTheHole() creates a new missile (i.e. radius,coordinates and direction) also sets the missile coordinates and adds them to the list of missiles. Now, if the flag(daFlag) is true which is set from main activity, we do the switch case for direction which is also set by the main activity. The manifest starts with screen orientation set to portrait so it locks the orientation down. For, future release will have the dual fire mode, objects will be replaced with images, OpenGL Skybox with secenic design.  
