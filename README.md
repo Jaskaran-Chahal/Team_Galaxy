@@ -12,7 +12,7 @@ Progamming done with Java inside Android Studio, starting with one touch listene
 ### Amairany Chavez:
 
 ### Victor Santiago:
-
+The introduction to our app which is the opening screen was implemented by using the splash_time_out and handler to delay the next activity. By using this, we were able to display the opening screen or first activity approximately four seconds before display the main menu or next activity. The opening screen shows the name of our team. After four seconds, it displays the main menu with all the buttons. Additionally, the background music starts playing when you open the app. Also, the music keeps playing on the background when in the main menu as well as any of the buttons' screens or activities. The music pauses when you get out of the app without using the exit button and resumes back where it was left off when you open the app again. If the exit button is used, music will start from the beginning. The start game button was supposed to be the connection between the main menu and the actual game once merge into one.       
 
 ## SkyBox:
 ### Raul Barajas:
