@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Team_Galaxy.iml" filepath="$PROJECT_DIR$/.idea/Team_Galaxy.iml" group="Team_Galaxy" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Team_Galaxy/app" />
+    </modules>
+  </component>
+</project>
