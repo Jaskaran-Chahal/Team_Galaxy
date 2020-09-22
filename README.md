@@ -3,7 +3,7 @@
 # Project - Galaxy Invaders
 
 ## Galaxy Invader Game:
-The Galaxy Raider is a 2D space shooter based game, like Galaxy Glory and Galaga Chronicles. Inside which, the player needs to protect the raider (spaceship) and the galaxy from invaders. The Invaders will move across the screen swaying their arms and shooting bullets. If they hit a player he loses a life if they hit a shelter it will disintegrate until eventually the player has nowhere to hide. When the invaders reach the side of the screen they will drop down and scroll back the other way; a little bit faster. Eventually they will be moving so fast the player is doomed. The space invaders must be taken out quickly in order to protect their galaxy.
+The Galaxy Invader is a 2D space shooter based game, like Galaxy Glory and Galaga Chronicles. Inside which, the player needs to protect the raider (spaceship) and the galaxy from invaders. The Invaders will move across the screen swaying their arms and shooting bullets. If they hit a player he loses a life if they hit a shelter it will disintegrate until eventually the player has nowhere to hide. When the invaders reach the side of the screen they will drop down and scroll back the other way; a little bit faster. Eventually they will be moving so fast the player is doomed. The space invaders must be taken out quickly in order to protect their galaxy.
 
 ## Instructions for running application:
 1. Download Android Studio
